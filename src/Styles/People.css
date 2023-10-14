@@ -1,0 +1,27 @@
+.Profilepic {
+    border-radius: 50%;
+    width: 75px;
+    height: 75px;
+    margin: 15px;
+
+}
+
+.Followbtn {
+    align-items: left;
+}
+
+.FirstName {
+    margin: 15px;
+    width: 80px;
+}
+
+.Userprofiles {
+    display: flex;
+    /* Use flexbox for layout */
+    align-items: center;
+    /* Align items vertically in the center */
+}
+
+.Userprofiles {
+    margin-top: 10px;
+}

@@ -1,24 +1,20 @@
-import logo from './logo.svg';
 import './App.css';
-
+import React, { useState } from 'react';
+import Header from './Components/Common/Header';
+import Banner from './Components/Banner';
+import NavigationMenu from './Components/NavigationMenu';
+import Holder from './Components/Holder';
+import PopUp from './Components/PopUp';
 function App() {
+  const [popup,setpopup]=useState(false);
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      {popup?<PopUp/>:<></>}
+      <Header setpopup={setpopup}/>
+      <Banner />
+      <NavigationMenu />
+      <Holder/>
+    </>
   );
 }
 

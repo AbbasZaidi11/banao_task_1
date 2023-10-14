@@ -1,0 +1,23 @@
+.banner {
+    background-image: url("https://png.pngtree.com/thumb_back/fw800/background/20230518/pngtree-person-is-typing-on-a-laptop-with-code-on-the-screen-image_2581299.jpg");
+    background-size: cover;
+    /* width: 100vw; */
+    height: 450px;
+    background-position: center;
+    overflow: hidden;
+    position: relative;
+}
+
+.bannerText {
+    bottom: 0;
+    top: 70%;
+    left: 10%;
+    color: white;
+    right: 0%;
+    position: absolute;
+}
+
+
+.row {
+    align-items: center;
+}

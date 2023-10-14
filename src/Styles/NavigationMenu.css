@@ -1,0 +1,9 @@
+ul {
+    position: relative;
+    left: 10%;
+}
+
+.navimenu {
+    overflow: hidden;
+    padding-top: 25px;
+}
